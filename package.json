@@ -1,0 +1,23 @@
+{
+  "name": "graphql-yoga-secure-auth",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Secure session cookie auth using Node and graphQL Yoga.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "npm-run-all --parallel start playground",
+    "playground": "graphql playground"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express-session": "^1.15.6",
+    "graphql-yoga": "1.8.5",
+    "helmet": "^3.13.0",
+    "ms": "^2.1.1"
+  },
+  "devDependencies": {
+    "graphql-cli": "2.15.8",
+    "npm-run-all": "4.1.2"
+  }
+}

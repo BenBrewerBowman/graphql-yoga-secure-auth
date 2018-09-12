@@ -1,0 +1,1 @@
+# Simple and Secure Node Session Auth using GraphQL
